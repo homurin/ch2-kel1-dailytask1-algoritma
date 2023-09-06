@@ -224,5 +224,4 @@ const users = [
     favoriteFruit: "banana",
   },
 ];
-
 module.exports = { users };

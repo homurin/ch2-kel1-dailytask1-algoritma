@@ -28,3 +28,22 @@
 // FizzBuzz
 // dan seterus nya sampai dengan 100
 
+// Membuat Lopping dari 1 sampai 100
+for (let i = 0; i <= 100; i++) {
+    // kondisi jika i adalah nilai modulo 3 & 5 maka outputnya "Fizz Buzz"
+    if (i % 3 === 0 && i % 5 === 0) {
+        console.log("Fizz Buzz");   
+    } 
+    // kondisi jika i adalah nilai modulo 3 maka outputnya "Fizz Buzz"
+    else if (i % 3 === 0) {
+        console.log("Fizz");
+    } 
+    // kondisi jika i adalah nilai modulo 5 maka outputnya "Fizz Buzz"
+    else if (i % 5 === 0) {
+        console.log("Buzz");
+    } 
+    // selain kondisi diatas cetak nilai i
+    else {
+        console.log(i);
+    }
+} 

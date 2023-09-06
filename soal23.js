@@ -7,6 +7,7 @@
 
 // Bisa diskusi dengan kelompokmu ya!
 
+// array
 const students = [
     { name: "Peter", score: 30},
     { name: "Parker", score: 50},
@@ -17,3 +18,19 @@ const students = [
     { name: "Evan", score: 55},
     { name: "Rowling", score: 90}
 ]
+
+// Membuat looping untuk menentukan kelulusan siswa
+for (let i = 0; i < students.length; i++) {
+    const student = students[i];
+    // Kondisi
+    // jika nilai <50 maka nama dari array students akan dipanggil dan diberi keterangan "tidak lulus" 
+    if (student.score < 50) {
+        console.log(`${student.name} : tidak lulus`);
+        // jika nilai >= 50 dan <70 maka nama dari array students akan dipanggil dan diberi keterangan "remedial"
+    } else if (student.score >= 50 && student.score < 70) {
+        console.log(`${student.name} : remedial`);
+        // jika nilai selain kondisi diatas maka nama dari array students akan dipanggil dan diberi keterangan "lulus"
+    } else {
+        console.log(`${student.name} : lulus`);
+    }
+}
