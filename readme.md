@@ -57,8 +57,20 @@ setiap tim presentasi hasil pengerjaannya dan nanti aku random tunjuk anggota ti
 11) tentukan user yang mempunyai teman bernama Grace dan favorit fruit nya apple atau banana
 12) tentukan user yang mempunyai nama kurang dari 10 karakter dan umur nya diatas 30 atau gender nya Male dan eyeColor nya brown
 13) setiap nama dari user tukar nama belakang dan depan nya, contoh = "imam taufiq" menjadi "taufiq imam"
+Diagram flowchart :
+![diagram](./img/soal-13.png) 
+
 14) rubah setiap company user menjadi binar dan pada email setiap user berubah menjadi @binar.org, contoh = imam@fsw2.com menjadi imam@binar.org
+Diagram flowchart :
+![diagram](./img/soal-14.png)
+
 15) rubah user yang gender female address nya menjadi laut, dan user yang gender male address nya gunung
+Diagram flowchart :
+![diagram](./img/soal-15.png)
+
+16) Yudi ingin menarik uang sebanyak X rupiah dari ATM. Mesin ATM hanya akan menerima transaksi jika X kelipatan 5 dan saldo rekening Yudi memiliki cukup uang untuk melakukan transaksi penarikan (termasuk biaya bank). Untuk setiap penarikan yang berhasil, bank mengenakan biaya 0,5 rupiah. Diberikan X adalah uang yang ingin yudi tarik dan Y adalah jumlah uang dalam rekening Yudi. Ayo hitung saldo akun Yudi setelah melakukan transaksi!
+![diagram](./img/soal-16.png)
+
 ### soal nomer 16 - 24 dapat diliat dalam file nya
 #### Note : tim poin terbaik kerjasama, hasil pengerjaan dan saat presentasi nya akan mendapatkan reward dan tim dengan poin terkecil akan mendapatkan punishment hehe
 
